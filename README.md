@@ -33,11 +33,14 @@ cd n1fastXML
  Compile the code
 g++ O3 o n1_fastXML_train Modified_n1_fastXML_train.cpp
 g++ O3 o n1_fastXML_predict fastXML_predict.cpp
+```
 
+Usage
 
-**Usage**
-**Training**
+Training
+```
 ./n1_fastXML_train [options] train_data_file model_dir
+```
 
 Options:
 
@@ -47,11 +50,12 @@ Options:
 -l : Log loss coefficient (default: 1.0)
 -s : Noise scale (default: 0.001)
 
-**Prediction**
-
+Prediction
+```
 ./n1_fastXML_predict [options] test_data_file model_dir score_file
+```
 
-**Experimental Results**
+Experimental Results
 The modified n1_fastXML demonstrates significant improvements in:
 
 Propensity-weighted precision metrics (P@k_wt)
@@ -61,7 +65,8 @@ Robustness under noise injection during test time
 See the full report for detailed experimental results and analysis.
 
 
-**Directory Structure**
+Directory Structure
+```
 n1-fastXML/
 ├── src/
 │   ├── Modified_n1_fastXML_train.cpp
@@ -78,8 +83,9 @@ n1-fastXML/
 ├── docs/
 │   └── report.pdf
 └── README.md
+```
 
-**Citation**
+Citation
 If you use this code in your research, please cite:
 @article{shree2023enhancing,
   title={Enhancing FastXML for Dependable AI: Robustness through Noise Injection},
@@ -88,7 +94,7 @@ If you use this code in your research, please cite:
   year={2023}
 }
 
-**Acknowledgments**
+Acknowledgments
 
 Original FastXML algorithm by Yashoteja Prabhu and Manik Varma
 Extreme Classification Repository: http://manikvarma.org/downloads/XC/XMLRepository.html
