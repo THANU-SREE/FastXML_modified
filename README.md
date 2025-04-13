@@ -89,9 +89,7 @@ Citation
 If you use this code in your research, please cite:
 @article{shree2023enhancing,
   title={Enhancing FastXML for Dependable AI: Robustness through Noise Injection},
-  author={Shree, Avula Thanu and Singh, Vishwanath},
-  journal={},
-  year={2023}
+  author={Sree, Avula Thanu and Singh, Vishwanath},
 }
 
 Acknowledgments
